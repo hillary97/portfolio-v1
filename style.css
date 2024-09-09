@@ -1,0 +1,492 @@
+*{
+	box-sizing: border-box;
+
+}
+.portfolio{
+	font-family: Sans-serif;
+	background-color: ;
+	color:black;
+	padding:15px;
+	font-weight: bolder;
+}
+body{
+	font-family:  ;
+	background-color:burgundy ;
+
+}
+nav ul{
+	list-style-type: none;
+	
+
+}
+nav ul li{
+	float:left;
+	padding: 10px;
+	font-size: 20px;
+	background-color: ;
+	opacity:;
+
+}
+nav ul li a{
+	text-decoration: none;
+	color:black;
+	padding: 15px;
+}
+.fluid-container{
+	display:flex;
+	flex-wrap: flex;
+	flex-direction: row;
+	width:100%;
+	height: 600px;
+}
+.profile{
+	margin-top:10px;
+	width:50%;
+	height: ;
+	background-image: url("");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	justify-content: center;
+	opacity: ;
+}
+.name{
+	padding-left:30px;
+	padding-top:20px;
+	margin-top:40px;
+	font-size:50px;
+	font-family: Calibri;
+	font-weight: bolder;
+	color:;
+	opacity:0.7;
+	background-color: ;
+}
+.skills{
+	padding:50px;
+	margin-right:0px;
+	margin-left:30px;
+	font-family: arial;
+	color:black;
+	font-size: 50px;
+	font-weight: bolder;
+	background-color: ;
+}
+.explainer{
+	background-color: ;
+	color:black;
+	font-style: normal;
+	padding:20px;
+	opacity: 1.0;
+	font-family: calibri;
+	font-size: 20px;
+}
+ol{
+	background-color: lightcoral;
+	color:;
+	width: 100%;
+}
+ol li{
+	display:block;
+	float: left;
+	padding:10px;
+	font-family: monospace;
+	font-weight: bolder;
+	font-size:30px;
+	font-family: ;
+
+}
+li a:link{
+	color:lightcoral;
+}
+li a:hover{
+	color:lightcoral;
+	background-color: ;
+	padding: 10px;
+	text-decoration: none;
+	border: 1px solid white;
+	border-radius: 10px;
+}
+li a:active{
+	color:green;
+}
+.container{
+	width:100%;
+	display: flex;
+	flex-wrap: flex;
+	flex-direction: row;
+}
+.languages{
+	flex: 50%;
+	float: ;
+}
+.side-text{
+	flex:50%;
+	float: ;
+	color:lightcoral;
+	font-family: calibri;
+	font-size: 30px;
+}
+.containment{
+	width:100%;
+	display:flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.other-skills{
+	flex: 50%;
+	float: ;
+	color:lightcoral;
+}
+.Software{
+	flex:50%;
+	float: ;
+	color:black;
+	font-family: calibri;
+	font-size: 40px;
+	height: 200px;
+}
+.project{
+	margin-top:0px;
+	width:100%;
+	height: 100%;
+	background-color: ;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.image{
+	background-image: url("");
+	height: 100%;
+	flex: 50%;
+	margin-top: 30px;
+	background-repeat: no-repeat;
+}
+.side {
+	flex: 50%;
+	height: 100%;
+}
+
+.fixed-position{
+	position: fixed;
+	bottom: 0px;
+
+}
+.fixed-positionn{
+	position: fixed;
+	top: 200px;
+	left: 0px;
+
+}
+.system-images{
+	display:flex;
+	flex-direction: row;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.img1,.img2{
+	width: %;
+}
+
+/* animation section */
+.hilla
+{
+		right: -2px;
+		position: ;
+		animation-name: hillary; 
+		animation-duration:2s;
+		background-color: ;
+		animation-delay: ;
+		position: relative;
+		transition:;
+		animation-iteration-count: ;
+
+	}
+	.hillaa
+{
+		right: -2px;
+		position: ;
+		animation-name: hillary; 
+		animation-duration: 2s;
+		background-color: ;
+		animation-delay:3s ;
+		position: relative;
+		animation-direction:;
+
+	}
+	.hillaaa
+{
+		right: -2px;
+		position: ;
+		animation-name: hillary; 
+		animation-duration: 2s;
+		background-color: ;
+		animation-delay:5s ;
+		position: relative;
+		transition:  ;
+		animation-iteration-count: ;
+
+	}
+	.hillaaaa
+{
+		right: -2px;
+		position: ;
+		animation-name: hillary; 
+		animation-duration: 2s;
+		background-color: ;
+		animation-delay:7s ;
+		position: relative;
+		transition:;
+		animation-iteration-count: ;
+
+	}
+	.hillaaaaa
+{
+		right: -2px;
+		position: ;
+		animation-name: hillary; 
+		animation-duration: 2s;
+		background-color: ;
+		animation-delay:9s ;
+		position: relative;
+		transition:;
+		animation-iteration-count: ;
+
+	}
+	.imagess{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+
+
+
+
+	/*
+	images styling begins here
+	*/
+	div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+	/*
+	images styling ends here
+	*/
+
+
+
+
+
+
+	@keyframes hillary{
+		from{
+			color:white;
+			right: -80px;
+			background-color: lightcoral;
+
+		}
+		to{
+			color: black;
+			right: -10px;
+
+		}
+	}
+
+/*responsive design start*/
+@media only screen and (max-width: 768px) {
+  
+  .fluid-container{
+  	flex-direction: column;
+  }
+  .profile{
+  	width:100%;
+  }
+  .skills{
+  	width:100%;
+  	font-size: 30px;
+  	text-align: center;
+  }
+  .information{
+  	width: 100%;
+  }
+  .container{
+  	flex-direction:column-reverse;
+  }
+  .languages{
+  	width: 100%;
+  	text-align: center;
+  }
+  .side-text{
+  	width: 100%;
+  }
+  .containment{
+  	flex-direction: column;
+  }
+  .other-skills{
+  	width: 100%
+  }
+  .Software{
+  	width: 100%;
+  	justify-content: center;
+  }
+  #about{
+  	margin-top: 300px;
+  	font-size: 100%;
+  }
+
+  .project{
+  	flex-direction: column;
+  }
+  .image{
+  	width:100%;
+  }
+  .side{
+  	width: 100%;
+  	font-size: 20px;
+  }
+  .text-center{
+  	padding-top: 100px;
+  }
+  .img1,.img2{
+	width: 100%;
+}
+.system-images{
+	display:flex;
+	flex-direction: column;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+}
+@media only screen and (max-width: 500px) {
+  
+  nav ul{
+  	background-color: black;
+  }
+  .fluid-container{
+  	flex-direction: column;
+  }
+  .profile{
+  	width:100%;
+  }
+  .skills{
+  	width:100%;
+  	font-size: 30px;
+  	text-align: center;
+  }
+  .information{
+  	width: 100%;
+  }
+  .container{
+  	flex-direction:column-reverse;
+  }
+  .languages{
+  	width: 100%;
+  	text-align: center;
+  }
+  .side-text{
+  	width: 100%;
+  }
+  .containment{
+  	flex-direction: column;
+  }
+  .other-skills{
+  	width: 100%
+  }
+  .Software{
+  	width: 100%;
+  	justify-content: center;
+  }
+  #about{
+  	margin-top: 300px;
+  	font-size: 100%;
+  }
+
+  .project{
+  	flex-direction: column;
+  }
+  .image{
+  	width:100%;
+  }
+  .side{
+  	width: 100%;
+  	font-size: 20px;
+  }
+  .text-center{
+  	padding-top: 100px;
+  }
+  .img1,.img2{
+	width: 100%;
+}
+.system-images{
+	display:flex;
+	flex-direction: column;
+	width: 100%;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+}
+@media only screen and (max-width: 320px){
+	nav {
+		background-color: blue;
+	}
+	.explainer{
+		text-align: center;
+		width: 100%;
+	}
+	a .maill{
+		width: 100%;
+	}
+	img .picha{
+		width: 100%;
+		height: auto;
+	}
+}
